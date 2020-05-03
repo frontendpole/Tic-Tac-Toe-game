@@ -1,0 +1,35 @@
+{
+  "homepage": "https://frontendpole.github.io/Tic-Tac-Toe-game/",
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "tic-tac-toe game",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "http-server": "^0.12.3",
+    "node-sass": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontendpole/Tic-Tac-Toe-game.git"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "game"
+  ],
+  "author": "Aleksandra Karp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontendpole/Tic-Tac-Toe-game/issues"
+  },
+  "homepage": "https://github.com/frontendpole/Tic-Tac-Toe-game#readme"
+}
