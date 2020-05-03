@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+  margin-left: 50%;
+  transform: translate(-50%);
+
+  &.unclickable {
+    pointer-events: none;
+  }
+
+  .cell {
+    border: 5px solid #0d3349;
+    background-color: rgba(95, 158, 160, 0.58);
+    width: 25vh;
+    height: 25vh;
+    font-size: 150px;
+    line-height: 100px;
+    text-align: center;
+    color: indianred;
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+

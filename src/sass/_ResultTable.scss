@@ -1,0 +1,26 @@
+.resultTable {
+  width: 15vw;
+  height: 150px;
+  border: 5px solid indianred;
+  position: fixed;
+  top: 50vh;
+  transform: translateY(-50%);
+  left: 5vw;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Bangers', sans-serif;
+  color: #0d3349;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 10px;
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+}
