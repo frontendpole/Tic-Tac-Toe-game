@@ -1,4 +1,4 @@
-# tic-tac-toe-game
+# Tic Tac Toe game
 
 Hi! Thanks for checking out this repository. :)
 
